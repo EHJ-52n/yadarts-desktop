@@ -18,7 +18,7 @@ package spare.n52.yadarts.persistence.sqlite;
 
 public class SQLiteConstants {
 
-	public static final String HIGHSORE_FILE = "highscore.db";
+	public static final String HIGHSCORE_FILE = "highscore.db";
 	
 	public static final String DATA_BASE_DIRECTORY = "data";
 	
