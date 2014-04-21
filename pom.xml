@@ -190,7 +190,15 @@
 				<artifactId>mockito-all</artifactId>
 				<version>1.9.5</version>
 			</dependency>
-
+                        <!--
+                            Now, only required to copy the legacy highscore file
+                            to the new location.
+                        -->
+                        <dependency>
+                            <groupId>commons-io</groupId>
+                            <artifactId>commons-io</artifactId>
+                            <version>2.4</version>
+                        </dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -260,7 +268,10 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
 		</dependency>
-
+                <dependency>
+                    <groupId>commons-io</groupId>
+                    <artifactId>commons-io</artifactId>
+                </dependency>
 	</dependencies>
 
 	<profiles>

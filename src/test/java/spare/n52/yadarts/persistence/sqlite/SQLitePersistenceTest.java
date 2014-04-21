@@ -30,6 +30,10 @@ import spare.n52.yadarts.games.x01.Three01Game;
 import spare.n52.yadarts.persistence.PersistedScore;
 import spare.n52.yadarts.persistence.PersistencyException;
 
+/**
+ * Add test for new resolveFile() which moves the old highscore to the 
+ * user home data dir.
+ */
 public class SQLitePersistenceTest {
 
 	private File theFile = new File("./test.db");
